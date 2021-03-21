@@ -10,5 +10,7 @@ int main() {
 		Game g;
 		g.play(results);
 	}
-	for (int i = 0; i < 40; i++) cout << results[i] << endl;
+	float sum = 0;
+	for (int i = 0; i < 40; i++) sum += results[i];
+	for (int i = 0; i < 40; i++) cout << results[i] / sum << endl;
 }
