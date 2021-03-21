@@ -1,1 +1,1 @@
-# Monopoly
+This code simulates 10 million monopoly games with 100 rounds each, and uses the data collected to calculate the probabilities of landing on each space on the board. The program outputs the probability of landing on each space starting at Go and moving clockwise around the board (e.g. the second number is the probability of landing on Mediterranean Avenue, the third number is the probability of landing on community chest, etc.). The .xlsx file contains all the analysis of the data generated.
